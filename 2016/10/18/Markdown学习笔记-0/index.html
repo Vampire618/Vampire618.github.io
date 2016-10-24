@@ -1,0 +1,786 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="markdown," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.2" />
+
+
+
+
+
+
+<meta name="description" content="markdown学习笔记1. 标题一个#号 表示h1标题
+例：# 这是h1标题
+
+这是h1标题
+两个#号 表示h2标题
+例：## 这是h2标题
+
+这是h2标题
+以此类推直至 h6标题 那就是6个#号
+例：###### 这是h6标题
+
+这是h6标题
+2. 特殊字符在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp; 。如果你要使用它们，需使用它们的原型，&amp;amp;lt 和 &amp;am">
+<meta property="og:type" content="article">
+<meta property="og:title" content="markdown学习笔记">
+<meta property="og:url" content="http://yoursite.com/2016/10/18/Markdown学习笔记-0/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="markdown学习笔记1. 标题一个#号 表示h1标题
+例：# 这是h1标题
+
+这是h1标题
+两个#号 表示h2标题
+例：## 这是h2标题
+
+这是h2标题
+以此类推直至 h6标题 那就是6个#号
+例：###### 这是h6标题
+
+这是h6标题
+2. 特殊字符在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp; 。如果你要使用它们，需使用它们的原型，&amp;amp;lt 和 &amp;am">
+<meta property="og:image" content="http://images.cnitblog.com/blog/404392/201501/122257231047591.jpg">
+<meta property="og:updated_time" content="2016-10-24T12:06:48.305Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="markdown学习笔记">
+<meta name="twitter:description" content="markdown学习笔记1. 标题一个#号 表示h1标题
+例：# 这是h1标题
+
+这是h1标题
+两个#号 表示h2标题
+例：## 这是h2标题
+
+这是h2标题
+以此类推直至 h6标题 那就是6个#号
+例：###### 这是h6标题
+
+这是h6标题
+2. 特殊字符在 HTML 文件中，有两个字符需要特殊处理： &amp;lt; 和 &amp;amp; 。如果你要使用它们，需使用它们的原型，&amp;amp;lt 和 &amp;am">
+<meta name="twitter:image" content="http://images.cnitblog.com/blog/404392/201501/122257231047591.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2016/10/18/Markdown学习笔记-0/"/>
+
+
+  <title> markdown学习笔记 | Hexo </title>
+</head>
+
+<body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?1964248f3a6d5cb40811fe37a95e18c0";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Hexo</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                markdown学习笔记
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-18T15:08:01+08:00" content="2016-10-18">
+              2016-10-18
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/18/Markdown学习笔记-0/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/18/Markdown学习笔记-0/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="markdown学习笔记"><a href="#markdown学习笔记" class="headerlink" title="markdown学习笔记"></a>markdown学习笔记</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1. 标题"></a>1. 标题</h2><p>一个<code>#</code>号 表示h1标题</p>
+<p><strong>例：</strong># 这是h1标题</p>
+<blockquote>
+<h1 id="这是h1标题"><a href="#这是h1标题" class="headerlink" title="这是h1标题"></a>这是h1标题</h1></blockquote>
+<p>两个<code>#</code>号 表示h2标题</p>
+<p><strong>例：</strong>## 这是h2标题</p>
+<blockquote>
+<h2 id="这是h2标题"><a href="#这是h2标题" class="headerlink" title="这是h2标题"></a>这是h2标题</h2></blockquote>
+<p>以此类推直至 h6标题 那就是6个<code>#</code>号</p>
+<p><strong>例：</strong>###### 这是h6标题</p>
+<blockquote>
+<h6 id="这是h6标题"><a href="#这是h6标题" class="headerlink" title="这是h6标题"></a>这是h6标题</h6></blockquote>
+<h2 id="2-特殊字符"><a href="#2-特殊字符" class="headerlink" title="2. 特殊字符"></a>2. 特殊字符</h2><p>在 HTML 文件中，有两个字符需要特殊处理： &lt; 和 &amp; 。如果你要使用它们，需使用它们的原型，<strong>&amp;lt</strong> 和 <strong>&amp;amp</strong> 。Markdown 让你可以自然地书写字符，需要转换的由它来处理好了。如果你使用的 &amp; 字符是 HTML 字符实体的一部分，它会保留原状，否则它会被转换成 <code>&amp;amp</code>。</p>
+<h2 id="3-反斜杠"><a href="#3-反斜杠" class="headerlink" title="3. 反斜杠"></a>3. 反斜杠</h2><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <code>&lt;em&gt;</code> 标签），你可以在星号的前面加上反斜杠：<br>其实文字前后加一个<code>*</code>号或者<code>_</code>,是将文字转为斜体，加入两个的话才是加粗。<br>*<em>literal asterisks*</em></p>
+<blockquote>
+<p><strong>literal asterisks</strong></p>
+</blockquote>
+<p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
+<blockquote>
+<p>\   反斜线<br>`   反引号</p>
+<ul>
+<li>星号<br>_   底线<br>{}  花括号<br>[]  方括号<br>()  括弧<br>#   井字号</li>
+</ul>
+<ul>
+<li>加号</li>
+</ul>
+<ul>
+<li>减号<br>.   英文句点<br>!   惊叹号</li>
+</ul>
+</blockquote>
+<h2 id="4-代码表示"><a href="#4-代码表示" class="headerlink" title="4. 代码表示"></a>4. 代码表示</h2><p>行内代码用两个 <code>`` </code>符号括起来。<br><strong>例：</strong>`console.log(“犯我德邦者，虽远必诛！”);`</p>
+<blockquote>
+<p><code>console.log(&quot;犯我德邦者，虽远必诛！&quot;);</code></p>
+</blockquote>
+<p>代码区块只要简单地缩进 4 个空格或是 1 个制表符就可以。不过要注意和上一行之间是隔着一行的。<br><strong>例：</strong><br>　　这是一个普通段落：</p>
+<p>　　　var canvas = document.getElementById(“canvas”);</p>
+<p>这是一个普通段落：</p>
+<pre><code>var canvas = document.getElementById(&quot;canvas&quot;);
+</code></pre><p>或者是使用` <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">**例：**</div><div class="line"></div><div class="line">\```javascript</div><div class="line"></div><div class="line">var canvas = document.getElementById(&quot;canvas&quot;);</div><div class="line"></div><div class="line">var context = canvas.getContext(&quot;2d&quot;);</div><div class="line"></div><div class="line">\</div></pre></td></tr></table></figure></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">var</span> canvas = <span class="built_in">document</span>.getElementById(<span class="string">"canvas"</span>);</div><div class="line"></div><div class="line"><span class="keyword">var</span> context = canvas.getContext(<span class="string">"2d"</span>);</div></pre></td></tr></table></figure>
+<h2 id="5-区块引用"><a href="#5-区块引用" class="headerlink" title="5. 区块引用"></a>5. 区块引用</h2><ul>
+<li><p>在每一行文字前面都加入一个<code>&lt;</code>符号，或者在整个段落的第一行加入<code>&lt;</code>号就可以建立一个区块引用。</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,<br>consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.<br>Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+</blockquote>
+</li>
+<li><p>区块引用也可以嵌套，只需要在一个引用里面再加入<code>&gt;</code>符号即可。例如：<code>&gt;&gt;</code>This is nested blockquote. 当然其它的Markdown语法（列表、标题）也是可以放进去的。</p>
+<blockquote>
+<ol>
+<li>This is the first level of quoting.</li>
+</ol>
+<blockquote>
+<p>This is nested blockquote.</p>
+</blockquote>
+<ol>
+<li>Back to the first level.</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+<h2 id="6-列表"><a href="#6-列表" class="headerlink" title="6. 列表"></a>6. 列表</h2><p>Markdown 支持有序列表和无序列表。<br>无序列表使用<code>*</code>、<code>+</code>或是<code>-</code>作为列表标记，有序列表用数字 + 英文点 + 空格&emsp;<code>1. 2. 3.</code>表示有序列表</p>
+<blockquote>
+<ol>
+<li>安妮</li>
+<li>布兰德</li>
+<li>亚索</li>
+</ol>
+</blockquote>
+<h2 id="7-分割线"><a href="#7-分割线" class="headerlink" title="7. 分割线"></a>7. 分割线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<p><code>--------------------------------------------------------------------</code><br><code>***</code><br><code>- - -</code><br><code>* * *</code><br><code>___</code></p>
+<h2 id="8-链接"><a href="#8-链接" class="headerlink" title="8. 链接"></a>8. 链接</h2><p>&emsp;&emsp;Markdown 支持两种形式的链接语法： 行内式和参考式两种形式。要建立一个行内式的链接，只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号、单引号或括号把 title 文字包起来即可，<strong>例如：</strong><code>This is [an example] (https://vampire618.github.io &quot;vampire618&quot;) inline link.</code></p>
+<p>This is <a href="https://vampire618.github.io" title="vampire618" target="_blank" rel="external">an example</a> inline link.</p>
+<p>参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：</p>
+<h2 id="9-插入图片"><a href="#9-插入图片" class="headerlink" title="9. 插入图片"></a>9. 插入图片</h2><p>插入图片的形式和链接相似，只需在链接的基础上前方加一个!</p>
+<p><code>![alttext]  (http://images.cnitblog.com/blog/404392/201501/122257231047591.jpg)</code></p>
+<ul>
+<li><code>Alt text</code>为如果图片无法显示时显示的文字；</li>
+<li><code>/path/to/img.jpg</code>为图片所在路径；</li>
+<li><code>Optional title</code>为显示标题。显示效果为在你将鼠标放到图片上后，会显示一个小框提示，提示的内容就是 <code>Optional title</code> 里的内容。<br><strong>例：</strong><br><img src="http://images.cnitblog.com/blog/404392/201501/122257231047591.jpg" alt="Markdown"></li>
+</ul>
+<p><strong>[参考资料]</strong></p>
+<ol>
+<li>AntLog，Markdown你只需要掌握这几个&emsp;<a href="http://www.cnblogs.com/crazyant007/p/4220066.html" target="_blank" rel="external">http://www.cnblogs.com/crazyant007/p/4220066.html</a></li>
+<li>yonghz, Markdown基本语法&emsp;<a href="https://github.com/younghz/Markdown" target="_blank" rel="external">https://github.com/younghz/Markdown</a></li>
+<li>riku, Markdown语法简体中文版&emsp;<a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">http://wowubuntu.com/markdown/</a></li>
+</ol>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>赏口饭吃，哈哈！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/path/to/wechat-reward-image" alt="Vampire618 WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/path/to/alipay-reward-image" alt="Vampire618 Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
+
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/markdown/" rel="tag">#markdown</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/10/15/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/10/24/GoF23种设计模式/" rel="prev" title="GoF23种设计模式">
+                GoF23种设计模式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/18/Markdown学习笔记-0/"
+           data-title="markdown学习笔记" data-url="http://yoursite.com/2016/10/18/Markdown学习笔记-0/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.png"
+               alt="Vampire618" />
+          <p class="site-author-name" itemprop="name">Vampire618</p>
+          <p class="site-description motion-element" itemprop="description">我就是我，不一样的水果</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">3</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="vampire618.github.com" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="503325222" target="_blank" title="QQ">
+                  
+                    <i class="fa fa-fw fa-qq"></i>
+                  
+                  QQ
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#markdown学习笔记"><span class="nav-number">1.</span> <span class="nav-text">markdown学习笔记</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-标题"><span class="nav-number">1.1.</span> <span class="nav-text">1. 标题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#这是h1标题"><span class="nav-number">2.</span> <span class="nav-text">这是h1标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#这是h2标题"><span class="nav-number">2.1.</span> <span class="nav-text">这是h2标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#这是h6标题"><span class="nav-number">2.1.0.0.0.1.</span> <span class="nav-text">这是h6标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-特殊字符"><span class="nav-number">2.2.</span> <span class="nav-text">2. 特殊字符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-反斜杠"><span class="nav-number">2.3.</span> <span class="nav-text">3. 反斜杠</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-代码表示"><span class="nav-number">2.4.</span> <span class="nav-text">4. 代码表示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-区块引用"><span class="nav-number">2.5.</span> <span class="nav-text">5. 区块引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#6-列表"><span class="nav-number">2.6.</span> <span class="nav-text">6. 列表</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-分割线"><span class="nav-number">2.7.</span> <span class="nav-text">7. 分割线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-链接"><span class="nav-number">2.8.</span> <span class="nav-text">8. 链接</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-插入图片"><span class="nav-number">2.9.</span> <span class="nav-text">9. 插入图片</span></a></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Vampire618</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.2"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.2"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.2"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"vampire618"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
